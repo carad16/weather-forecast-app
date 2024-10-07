@@ -166,6 +166,9 @@
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </footer>
                 </div>
+                <a href="{{ route('weather') }}">
+                    <button>Check Weather</button>
+                </a>
             </div>
         </div>
     </body>
